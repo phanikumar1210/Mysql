@@ -22,7 +22,7 @@ try{                             //mysql try block
             //Class.forName("com.ibm.db2.jcc.DB2Driver");
             System.out.println("driver loading");
             System.out.println("Changed successfully");
-            Connection con=DriverManager.getConnection("jdbc:mysql://192.168.5.10:3306/sample?user=root&password=ilikerandompasswords&useUnicode=true&characterEncoding=UTF-8");
+            Connection con=DriverManager.getConnection("jdbc:mysql://phanikumar1210.cloudapp.net:3306/miracle?user=root&password=miracle&useUnicode=true&characterEncoding=UTF-8");
           // Connection con=DriverManager.getConnection("jdbc:db2://172.17.0.142:50001/itgdb","mssusr15","miracle15");
             String uname=request.getParameter("username");
             String pwd=request.getParameter("password"); 

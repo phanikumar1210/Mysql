@@ -37,7 +37,7 @@ public class ViewData extends HttpServlet {
             System.out.println("driver loaded successfully");
             //Connection con=DriverManager.getConnection("jdbc:mysql://10.240.0.2:3306/sample","root","ilikerandompasswords");
             //Connection con=DriverManager.getConnection("jdbc:db2://172.17.0.142:50001/itgdb","mssusr15","miracle15");
-            Connection con=DriverManager.getConnection("jdbc:mysql://192.168.5.10:3306/sample?user=root&password=ilikerandompasswords&useUnicode=true&characterEncoding=UTF-8");
+            Connection con=DriverManager.getConnection("jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6149615?user=sql6149615&password=8XAlMjXW8c&useUnicode=true&characterEncoding=UTF-8");
             Statement stmt = con.createStatement();
             PreparedStatement pst=con.prepareStatement("select * from login where user=? AND password=?");
             pst.setString(1, uname);
