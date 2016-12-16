@@ -13,10 +13,9 @@
         <title>JSP Page</title>
     </head>
     <body style="background:#00FFFF">
-        <a href=html1.html>Register</a>
+        <a href=html1.html>Register User Details</a>
         <form action="ViewData" method="get">
             <input type="submit" value="View Data">
         </form>
-        
     </body>
 </html>
