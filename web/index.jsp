@@ -13,7 +13,7 @@
         <title>JSP Page</title>
     </head>
     <body style="background:#00FFFF">
-        <a href=html1.html>Register User</a>
+        <a href=html1.html>Register User 1210 Updated</a>
         <form action="ViewData" method="get">
             <input type="submit" value="View Data">
         </form>
